@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>optoviki.by – Скоро будет / Coming Soon</title>
+  <style>
+    /* Сброс стандартных отступов и полей */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Фон и базовые стили */
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      color: #333;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* Основная карточка-заглушка */
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    /* Заголовок */
+    .container h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    /* Описание (двуязычное) */
+    .container p {
+      font-size: 16px;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+    /* Стили для формы сбора e-mail */
+    .email-form input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+    .email-form button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #0073e6;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .email-form button:hover {
+      background-color: #005bb5;
+    }
+    /* Нижние ссылки (контакты) */
+    .footer-links {
+      margin-top: 20px;
+      font-size: 12px;
+    }
+    .footer-links a {
+      color: #0073e6;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Заголовок с латиницей (домен) -->
+    <h1>optoviki.by</h1>
+
+    <!-- Описание на русском и английском -->
+    <p>
+      Сайт в разработке. Скоро здесь появится что-то интересное!<br />
+      Website under construction. Something cool is coming soon!
+    </p>
+
+    <!-- Форма для сбора e-mail (рус./англ.) -->
+    <form class="email-form" action="#" method="post">
+      <input
+        type="email"
+        name="email"
+        placeholder="Ваш e-mail / Your e-mail"
+        required
+      />
+      <button type="submit">Уведомить меня / Notify me</button>
+    </form>
+
+    <!-- Контактные ссылки -->
+    <div class="footer-links">
+      <a href="mailto:info@optoviki.by">info@optoviki.by</a> |
+    </div>
+  </div>
+</body>
+</html>
